@@ -1,0 +1,13 @@
+echo "# github-learning" >> README.md
+git init
+git add [filename] || -A
+git status
+gir commit -m "msg"
+git add README.md
+git commit -m "first commit"
+git remote add origin repoName
+git remote add origin https://github.com/nikita2511/github-learning.git
+git push -u origin master
+            
+git config --global user.email "jaiswalnikita2911@gmail.com"  
+git config --global user.name "nikita jaiswal"    
